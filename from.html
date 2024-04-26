@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>From</title>
+    <style>
+      nav {
+        display: flex;
+        justify-content: space-between;
+      }
+      nav a {
+        text-decoration: none;
+        color: black;
+      }
+
+      .login_from {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border: 2px solid blueviolet;
+       width: 50%;
+      }
+      .login_from input {
+        margin: 20px;
+      }
+      .login_from_container{
+        justify-content: center;
+        display: flex;
+        border: 1px solid seagreen;
+        align-items: center;
+        height: 90vh;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div>
+        <a href="">home</a>
+        <a href="">Profile</a>
+        <a href="">Blog</a>
+        <a href="">About</a>
+      </div>
+      <a href="">Log In</a>
+    </nav>
+
+    <section class="login_from_container">
+      <form class="login_from" action="">
+        <h3>please log in</h3>
+        <input type="email" name="" required placeholder="Your Email" />
+
+        <input type="password" name="" id="" placeholder="password" />
+        <input type="submit" value="Log in" />
+      </form>
+    </section>
+  </body>
+</html>
